@@ -371,7 +371,7 @@ public class SeriLogCustomThemes
 
     public static SystemConsoleTheme Default()
     {
-        return Theme4();
+        return Theme5();
     }
 
 }
