@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<PackageTags>csharp;serilog;logging</PackageTags>
+		<Title>SeriLog custom color themes</Title>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<Description>Provides several custom color thems for SeriLog console logging.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="readme.md" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>
