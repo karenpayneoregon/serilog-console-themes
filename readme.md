@@ -5,6 +5,8 @@ Provides a class project for overriding SeriLog console colors.
 
 See the following for [usage](SeriLogThemesLibrary/readme.md)
 
+:pushpin: Requires Microsoft Visual Studio 2022 or higher, .NET Core 7 or higher
+
 ## Theme 1
 
 

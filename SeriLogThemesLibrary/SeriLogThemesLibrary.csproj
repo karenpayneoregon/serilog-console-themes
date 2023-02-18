@@ -10,6 +10,12 @@
 		<Title>SeriLog custom color themes</Title>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<Description>Provides several custom color thems for SeriLog console logging.</Description>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageProjectUrl>https://github.com/karenpayneoregon/serilog-console-themes/tree/master/SeriLogThemesLibrary</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/karenpayneoregon/serilog-console-themes</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -19,6 +25,10 @@
 		<PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
 	</ItemGroup>
 	<ItemGroup>
+	  <None Update="logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	  <None Update="readme.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
