@@ -81,6 +81,12 @@ public class SeriLogCustomThemes
                         Foreground = ConsoleColor.Black,
                         Background = ConsoleColor.Yellow,
                     }
+                },
+                {
+                    ConsoleThemeStyle.Scalar, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.White
+                    }
                 }
 
             };
@@ -294,7 +300,24 @@ public class SeriLogCustomThemes
     {
         Dictionary<ConsoleThemeStyle, SystemConsoleThemeStyle> customThemeStyles = new()
             {
-                
+                {
+                    ConsoleThemeStyle.Text, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.Green,
+                    }
+                },
+                {
+                    ConsoleThemeStyle.String, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.Yellow,
+                    }
+                },
+                {
+                    ConsoleThemeStyle.Number, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.Cyan,
+                    }
+                },
                 {
                     ConsoleThemeStyle.LevelInformation, new SystemConsoleThemeStyle
                     {
@@ -320,6 +343,24 @@ public class SeriLogCustomThemes
                     {
                         Foreground = ConsoleColor.Magenta,
                         Background = ConsoleColor.Yellow,
+                    }
+                },
+                {
+                    ConsoleThemeStyle.Scalar, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.White
+                    }
+                },
+                {
+                    ConsoleThemeStyle.SecondaryText, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.DarkGray
+                    }
+                },
+                {
+                    ConsoleThemeStyle.TertiaryText, new SystemConsoleThemeStyle
+                    {
+                        Foreground = ConsoleColor.DarkGray
                     }
                 }
 
