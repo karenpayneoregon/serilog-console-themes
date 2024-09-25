@@ -14,7 +14,7 @@ public class Program
 
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Verbose()
-            .WriteTo.Console(theme: AnsiConsoleTheme.Code)
+            .WriteTo.Console(theme: AnsiConsoleTheme.Grayscale)
             .CreateLogger();
 
         var app = builder.Build();

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -14,9 +14,9 @@
 		<PackageProjectUrl>https://github.com/karenpayneoregon/serilog-console-themes/tree/master/SeriLogThemesLibrary</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/karenpayneoregon/serilog-console-themes</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageReleaseNotes>updated Theme5</PackageReleaseNotes>
+		<PackageReleaseNotes>updated from NET7 to NET8</PackageReleaseNotes>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>1.0.0.1</Version>
+		<Version>1.0.0.2</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
